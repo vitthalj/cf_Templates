@@ -13,16 +13,12 @@
            "BlockDeviceMappings" : [
             {
                "DeviceName" : "/dev/sda1",
-               "Ebs" : { "VolumeSize" : "8" }
+               "Ebs" : { "VolumeSize" : "8", "Encrypted" : true }
             },
             {
                "DeviceName" : "/dev/sdb",
-               "Ebs" : { "VolumeSize" : "8" }
-            },
-            {
-                "DeviceName" : "/dev/sdc",
-                "Ebs" : { "VolumeSize" : "8" }
-             }
+               "Ebs" : { "VolumeSize" : "8" , "Encrypted" : true }
+            }
          ]
         }
      }
